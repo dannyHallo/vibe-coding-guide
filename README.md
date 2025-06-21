@@ -40,4 +40,10 @@ This is a vibe coding guide for the modern era. Currently just for personal use.
       aider --model openai/<model-name>
       ```
 
+    -   For example, to use Gemini 2.5 Pro without auto-commits, you can run:
+
+      ```shell
+      aider --no-auto-commits --no-show-model-warnings --model openai/gemini-2.5-pro-preview-06-05
+      ```
+
     -   Replace `<model-name>` with the model you want to use. You can copy the exact model names from the [pricing page](https://www.chataiapi.com/pricing).
