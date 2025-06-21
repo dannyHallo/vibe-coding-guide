@@ -9,9 +9,6 @@ This is a vibe coding guide for the modern era. Currently just for personal use.
     -   *Note: Consider using it as a Master Control Program (MCP) and connecting it to Claude Code.*
     -   Reference: [CRACKED Aider AND Claude Code Combo. Zuck ships Llama4. Gemini 2.5 Pro is SOTA?](https://www.youtube.com/watch?v=QzZ97noEapA)
 
--   **Claude Code**
-    -   *Note: Might be a better alternative, testing required.*
-
 -   **[Repomix](https://github.com/yamadashy/repomix)**
     -   Packs your entire repository into a single, AI-friendly file.
 
@@ -34,16 +31,11 @@ This is a vibe coding guide for the modern era. Currently just for personal use.
     -   The API can be found at a low cost on services like Taobao. You can find pricing and supported models [here](https://www.chataiapi.com/pricing).
 
 3.  **Configure Aider**
-    -   In your terminal, you can configure `aider` to use your chosen model:
 
-      ```shell
-      aider --model openai/<model-name>
-      ```
+-   Copy the `.aider.conf.yml` file under this repo to the root directory of your project.
 
-    -   For example, to use Gemini 2.5 Pro without auto-commits, you can run:
+- Then just run the following command to start vibe coding:
 
-      ```shell
-      aider --no-auto-commits --no-show-model-warnings --model openai/gemini-2.5-pro-preview-06-05
-      ```
-
-    -   Replace `<model-name>` with the model you want to use. You can copy the exact model names from the [pricing page](https://www.chataiapi.com/pricing).
+    ```shell
+    aider
+    ```
