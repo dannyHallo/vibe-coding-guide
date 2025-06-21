@@ -1,6 +1,8 @@
 # Place this file in the root directory of your project
 # OPEN_API_KEY and OPEN_API_BASE must be configured in PATH
 
+# https://aider.chat/docs/config/aider_conf.html
+
 dark-mode: true
 auto-commits: false
 show-model-warnings: false
