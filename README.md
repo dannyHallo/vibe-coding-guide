@@ -19,8 +19,6 @@ This is a vibe coding guide for the modern era. Currently just for personal use.
 
 -   [AI Coding DEVLOG: Claude Code has CHANGED Software Engineering](https://www.youtube.com/watch?v=d-SyGA0Avtw)
 
-- Some Random Testing...
-
 ## Setup
 
 ### Aider
